@@ -1,0 +1,103 @@
+@startuml Reversi
+
+package model {
+
+    abstract class Game {
+    change_player()
+    make_move()
+    is_valid_move()
+    check_the_winner()
+    }
+
+
+    class ReversiClassicGame {
+        board : Board
+        player : Player
+        change_player()
+        make_move()
+        is_valid_move()
+        check_the_winner()
+    }
+
+    class AIPlayer {
+        difficulty(int)
+        get_board()
+        make_move()
+    }
+
+
+    class DataSaver {
+        path_to_save: str
+        save_the_game(path_to_save)
+    }
+
+
+    class Board {
+        size
+        board_mat
+        update_cell()
+        get_cell()
+    }
+
+    enum Player {
+        (from enum)
+        Black : Int
+        White : Int
+    }
+
+
+}
+
+package view {
+    abstract class View {
+    welcome_message()
+    }
+
+    class BoardConsoleView {
+        board
+        render_board()
+    }
+
+
+    class GameConsoleView {
+        welcome_message()
+        display_menu()
+    }
+
+    class ReversiTKinter {
+        render_the_menu()
+        render_the_game()
+    }
+
+
+}
+
+
+package controller {
+    class ReversiController {
+        game : ReversiClassicGame
+        view : GameConsoleView
+        board_view : BoardConsoleView
+        run_game()
+    }
+}
+
+
+
+ReversiClassicGame <|-- Game
+ReversiClassicGame *-- Board
+ReversiClassicGame *-- Player
+
+ReversiClassicGame *-- DataSaver
+
+ReversiClassicGame *-- AIPlayer
+
+GameConsoleView <|-- View
+ReversiTKinter <|-- View
+BoardConsoleView <|-- View
+
+ReversiController *-- GameConsoleView
+ReversiController *-- BoardConsoleView
+ReversiController *-- ReversiClassicGame
+
+@enduml
