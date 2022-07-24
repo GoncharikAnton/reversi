@@ -13,9 +13,9 @@ class Board:
         self.mat[row][col] = player
 
     def start_positions(self):
-        center = self.board_size // 2
-        self.board.mat[center][center] = 1
-        self.board.mat[center][center + 1] = 1
-        self.board.mat[center + 1][center + 1] = 2
-        self.board.mat[center + 1][center] = 2
+        center = (self.board_size // 2) - 1
+        self.mat[center][center] = 1
+        self.mat[center + 1][center + 1] = 1
+        self.mat[center][center + 1] = 2
+        self.mat[center + 1][center] = 2
 
