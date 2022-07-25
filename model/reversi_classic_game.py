@@ -8,10 +8,10 @@ from model.directions import Directions
 
 class ReversiClassicGame(Game):
 
-    def __init__(self, board_size):
+    def __init__(self, board_size=8):
         super().__init__(board_size)
         self.board = Board(board_size)
-        self.curr_player = Player.B
+        self.curr_player = Player.X
 
     def change_player(self):
         self.curr_player = 3 - self.curr_player
@@ -27,7 +27,9 @@ class ReversiClassicGame(Game):
                 return chain_list
         return []
 
-    def is_valid_move(self, row, col, curr_player, player_2):
+    def is_valid_move(self, row, col):
+        curr_player = self.curr_player
+        player_2 = 3 - self.curr_player
         directions = [(-1, 0), (1, 0), (0, 1), (0, -1), (-1, -1), (-1, 1), (1, -1), (1, 1)]
         curr_position = self.board.mat[row][col]
         flag = []
@@ -36,7 +38,6 @@ class ReversiClassicGame(Game):
         else:
             for i in range(len(directions)):
                 curr_position = self.board.mat[row + directions[i][0]][col + directions[i][1]]
-                print(self.board.mat)
                 if curr_position == 0:
                     continue
                 elif curr_position == curr_player:
@@ -48,13 +49,43 @@ class ReversiClassicGame(Game):
         return flag
 
     def make_a_move(self, row, col, validation):
-        if len(validation) != 0:
-            for i in range(len(validation)):
-                if validation[i][2] == (1, 0):
-                    for q in range(validation[i][0][0], validation[i][1][0]):
-                        self.board.update_cell(q, validation[i][1][0], self.curr_player)
+        for i in range(len(validation)):
+            if validation[i][2] == Directions.D:
+                for q in range(validation[i][0][0], validation[i][1][0]):
+                    self.board.update_cell(q, validation[i][1][0], self.curr_player)
+            elif validation[i][2] == Directions.U:
+                for q in range(validation[i][0][0], validation[i][1][0], -1):
+                    self.board.update_cell(q, validation[i][1][0], self.curr_player)
+            elif validation[i][2] == Directions.R:
+                for q in range(validation[i][0][1], validation[i][1][1]):
+                    self.board.update_cell(validation[i][1][0], q, self.curr_player)
+            elif validation[i][2] == Directions.L:
+                for q in range(validation[i][0][1], validation[i][1][1], -1):
+                    self.board.update_cell(validation[i][1][0], q, self.curr_player)
 
-            # self.board.update_cell(row, col, self.curr_player)
+            elif validation[i][2] == Directions.UL:
+                tmp_d = validation[i][0][1]
+                for q in range(validation[i][0][0], validation[i][1][0] + 1, -1):
+                    self.board.update_cell(q, tmp_d, self.curr_player)
+                    tmp_d -= 1
+
+            elif validation[i][2] == Directions.DL:
+                tmp_d = validation[i][0][1]
+                for q in range(validation[i][0][0], validation[i][1][0] + 1):
+                    self.board.update_cell(q, tmp_d, self.curr_player)
+                    tmp_d -= 1
+
+            elif validation[i][2] == Directions.DR:
+                tmp_d = validation[i][0][1]
+                for q in range(validation[i][0][0], validation[i][1][0] + 1):
+                    self.board.update_cell(q, tmp_d, self.curr_player)
+                    tmp_d += 1
+
+            elif validation[i][2] == Directions.UR:
+                tmp_d = validation[i][0][1]
+                for q in range(validation[i][0][0], validation[i][1][0] + 1, -1):
+                    self.board.update_cell(q, tmp_d, self.curr_player)
+                    tmp_d += 1
 
     def check_winner(self):
         pass

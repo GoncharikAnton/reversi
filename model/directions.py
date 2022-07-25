@@ -1,6 +1,3 @@
-from enum import IntEnum
-
-
 class Directions:
     U = (-1, 0)
     D = (1, 0)
