@@ -9,13 +9,12 @@ class Game(ABC):
     def __init__(self, board_size):
         self.board_size = board_size
 
-
     @abstractmethod
     def change_player(self):
         pass
 
     @abstractmethod
-    def is_valid_move(self, row, col, curr_player, player_2):
+    def is_valid_move(self, row, col):
         pass
 
     @abstractmethod
