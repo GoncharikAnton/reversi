@@ -1,9 +1,9 @@
-from abc import ABC, abstractmethod
-
 from model.board import Board
+from model.data_saver import DataSaver
 from model.game import Game
 from model.players import Player
 from model.directions import Directions
+
 
 
 class ReversiClassicGame(Game):
@@ -55,20 +55,23 @@ class ReversiClassicGame(Game):
         for i in range(len(validation)):
             if validation[i][2] == Directions.D:
                 for q in range(validation[i][0][0], validation[i][1][0]):
-                    self.board.update_cell(q, validation[i][1][0], self.curr_player)
+                    self.board.update_cell(q, validation[i][1][1], self.curr_player)
+
             elif validation[i][2] == Directions.U:
                 for q in range(validation[i][0][0], validation[i][1][0], -1):
-                    self.board.update_cell(q, validation[i][1][0], self.curr_player)
+                    self.board.update_cell(q, validation[i][1][1], self.curr_player)
+
             elif validation[i][2] == Directions.R:
                 for q in range(validation[i][0][1], validation[i][1][1]):
                     self.board.update_cell(validation[i][1][0], q, self.curr_player)
+
             elif validation[i][2] == Directions.L:
                 for q in range(validation[i][0][1], validation[i][1][1], -1):
                     self.board.update_cell(validation[i][1][0], q, self.curr_player)
 
             elif validation[i][2] == Directions.UL:
                 tmp_d = validation[i][0][1]
-                for q in range(validation[i][0][0], validation[i][1][0] + 1, -1):
+                for q in range(validation[i][0][0], validation[i][1][0], -1):
                     self.board.update_cell(q, tmp_d, self.curr_player)
                     tmp_d -= 1
 
@@ -86,7 +89,7 @@ class ReversiClassicGame(Game):
 
             elif validation[i][2] == Directions.UR:
                 tmp_d = validation[i][0][1]
-                for q in range(validation[i][0][0], validation[i][1][0] + 1, -1):
+                for q in range(validation[i][0][0], validation[i][1][0], -1):
                     self.board.update_cell(q, tmp_d, self.curr_player)
                     tmp_d += 1
 
@@ -103,8 +106,10 @@ class ReversiClassicGame(Game):
                     player2_result += 1
 
         if player1_result > player2_result:
+            DataSaver.data_saver(['Player X win!', player1_result, player2_result])
             return ['Player X win!', player1_result, player2_result]
         elif player2_result > player1_result:
+            DataSaver.data_saver(['Player O win!', player1_result, player2_result])
             return ['Player O win!', player1_result, player2_result]
         return 0
 
@@ -114,5 +119,4 @@ class ReversiClassicGame(Game):
                 validation = self.is_valid_move(i, j)
                 if len(validation) > 0:
                     return True
-
         return False

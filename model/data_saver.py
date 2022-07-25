@@ -1,4 +1,6 @@
 class DataSaver:
 
-    def __init__(self):
-        pass
+    @staticmethod
+    def data_saver(result):
+        with open('matches_results.txt', 'a', encoding='UTF-8') as f:
+            f.writelines(' ,'.join(result))

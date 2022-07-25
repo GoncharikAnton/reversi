@@ -19,7 +19,7 @@ class BoardConsoleView(BoardView):
         print('\n')
         for i in range(board_size):
             print('+', end='')
-            print('---+' * (board_size))
+            print('---+' * board_size)
 
             for j in range(board_size):
                 cell = self.board.get_cell(i, j)

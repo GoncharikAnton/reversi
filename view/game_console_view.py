@@ -1,11 +1,12 @@
+from model.game import Game
 from view.game_view import GameView
-from model.reversi_classic_game import ReversiClassicGame
+# from model.reversi_classic_game import ReversiClassicGame
 from view.board_console_view import BoardConsoleView
 from view.board_view import BoardView
 
 
 class GameConsoleView(GameView):
-    def __init__(self, game: ReversiClassicGame):
+    def __init__(self, game: Game):
         super().__init__(game)
         self.board_view = BoardConsoleView(game.board)
 
@@ -17,7 +18,7 @@ class GameConsoleView(GameView):
               'and turned over to match the player\'s colour.')
 
     def get_move(self):
-        s = input('Enter your move (row, col):').split(',')
+        s = input(f'Player {self.game.curr_player}, enter your move (row, col):').split(',')
         row, col = int(s[0]) - 1, int(s[1]) - 1
         return row, col
 
