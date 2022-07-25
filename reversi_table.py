@@ -1,24 +1,10 @@
-size = 8
+from model.reversi_classic_game import ReversiClassicGame
+from view.game_console_view import GameConsoleView
+from controller.reversi_controller import GameController
 
-lst = [x+1 for x in range(size)]
-table = []
-for i in range(size):
-    rowList = []
-    for j in range(size):
-        rowList.append(0)
-    table.append(rowList)
+model = ReversiClassicGame(board_size=8)
+view = GameConsoleView(model)
 
+controller = GameController(view, model)
 
-
-for i in range(size):
-    if i == 0:
-        print('     ', end='')
-    print(f'{i + 1}' + ' | ', end='')
-print('\n')
-
-for index, lst in enumerate(table):
-    print(f' {index + 1} |' + '   |' * size)
-    print('---+' * (size + 1))
-
-
-
+controller.run_game()
