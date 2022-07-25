@@ -28,3 +28,7 @@ class Game(ABC):
     @abstractmethod
     def check_winner(self):
         pass
+
+    @abstractmethod
+    def auto_pass(self):
+        pass

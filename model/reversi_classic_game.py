@@ -36,16 +36,19 @@ class ReversiClassicGame(Game):
         if curr_position != 0:
             return flag
         else:
-            for i in range(len(directions)):
-                curr_position = self.board.mat[row + directions[i][0]][col + directions[i][1]]
-                if curr_position == 0:
-                    continue
-                elif curr_position == curr_player:
-                    continue
-                else:
-                    flag += self.is_valid_chain([row, col], [row + directions[i][0], col + directions[i][1]],
-                                                directions[i],
-                                                curr_player, player_2)
+            try:
+                for i in range(len(directions)):
+                    curr_position = self.board.mat[row + directions[i][0]][col + directions[i][1]]
+                    if curr_position == 0:
+                        continue
+                    elif curr_position == curr_player:
+                        continue
+                    else:
+                        flag += self.is_valid_chain([row, col], [row + directions[i][0], col + directions[i][1]],
+                                                    directions[i],
+                                                    curr_player, player_2)
+            except IndexError:
+                pass
         return flag
 
     def make_a_move(self, row, col, validation):
@@ -88,4 +91,28 @@ class ReversiClassicGame(Game):
                     tmp_d += 1
 
     def check_winner(self):
-        pass
+        player1_result = 0
+        player2_result = 0
+        for i in range(self.board.board_size):
+            for j in range(self.board.board_size):
+                if self.board.mat[i][j] == 0:
+                    return 0
+                elif self.board.mat[i][j] == 1:
+                    player1_result += 1
+                elif self.board.mat[i][j] == 2:
+                    player2_result += 1
+
+        if player1_result > player2_result:
+            return ['Player X win!', player1_result, player2_result]
+        elif player2_result > player1_result:
+            return ['Player O win!', player1_result, player2_result]
+        return 0
+
+    def auto_pass(self):
+        for i in range(self.board.board_size):
+            for j in range(self.board.board_size):
+                validation = self.is_valid_move(i, j)
+                if len(validation) > 0:
+                    return True
+
+        return False
