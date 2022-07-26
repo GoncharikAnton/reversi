@@ -9,9 +9,7 @@ class AIPlayer:
     """
 
     def __init__(self, model: Game):
-        self.move = set()
         self.list_of_moves = []
-        self.player = 2
         self.model = model
 
     def check_score_copy(self, my_model):
@@ -45,18 +43,16 @@ class AIPlayer:
         """
         step = []
         current_score = self.check_score()
-        print(current_score)
         for i in self.list_of_moves:
             my_model = deepcopy(self.model)
             my_model.make_a_move(i[0][0], i[0][1], my_model.is_valid_move(i[0][0], i[0][1]))
             score = self.check_score_copy(my_model)
-            print(score)
             if score >= current_score:
                 current_score = score
                 step = [i[0][0], i[0][1]]
-            elif score < current_score: # Just for testing with 2 AI
-                current_score = score
-                step = [i[0][0], i[0][1]]
+            # elif score < current_score: # Just for testing with 2 AI
+            #     current_score = score
+            #     step = [i[0][0], i[0][1]]
             else:
                 continue
         return step
