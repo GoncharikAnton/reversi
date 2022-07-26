@@ -2,7 +2,8 @@ from abc import ABC, abstractmethod
 
 
 class Game(ABC):
-    """Abstract class that represents general methods of the reversi game"""
+    """Abstract class that represents general methods of the reversi game
+    """
 
     def __init__(self, board_size):
         self.board_size = board_size
@@ -16,7 +17,7 @@ class Game(ABC):
         pass
 
     @abstractmethod
-    def is_valid_chain(self, start_position, curr_position, direction, curr_player, player_2):
+    def is_valid_chain(self, start_position, curr_position, direction):
         pass
 
     @abstractmethod
