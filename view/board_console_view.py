@@ -3,6 +3,8 @@ from view.board_view import BoardView
 
 
 class BoardConsoleView(BoardView):
+    """Represents console view of the board"""
+
     symbols = {0: ' ', 1: 'X', 2: 'O'}
 
     def __init__(self, board: Board):
@@ -10,6 +12,10 @@ class BoardConsoleView(BoardView):
         self.board = board
 
     def draw_board(self):
+        """Draws the board in the console.
+
+        :return: void
+        """
         board_size = self.board.board_size
 
         for i in range(board_size):

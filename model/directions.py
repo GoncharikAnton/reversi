@@ -1,4 +1,5 @@
 class Directions:
+    """Class-container with directions"""
     U = (-1, 0)
     D = (1, 0)
     R = (0, 1)

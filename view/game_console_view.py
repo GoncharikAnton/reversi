@@ -6,6 +6,8 @@ from view.board_view import BoardView
 
 
 class GameConsoleView(GameView):
+    """Represents console view of the game"""
+
     def __init__(self, game: Game):
         super().__init__(game)
         self.board_view = BoardConsoleView(game.board)
@@ -18,11 +20,16 @@ class GameConsoleView(GameView):
               'and turned over to match the player\'s colour.')
 
     def get_move(self):
+        """Returns the move, that the player passed.
+
+        :return: int:row, int:col
+        """
         s = input(f'Player {self.game.curr_player}, enter your move (row, col):').split(',')
         row, col = int(s[0]) - 1, int(s[1]) - 1
         return row, col
 
     def draw_board(self):
+        """Draw the board from self.board"""
         self.board_view.draw_board()
 
     def display_winner(self, player):

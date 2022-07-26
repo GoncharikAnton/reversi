@@ -2,15 +2,21 @@ from view.game_view import GameView
 from model.reversi_classic_game import Game
 from model.ai_player import AIPlayer
 
+
 class GameController:
+    """
+    Class that manages Game and View.
+    """
     def __init__(self, view: GameView, model: Game) -> None:
         self.view = view
         self.model = model
         self.ai = AIPlayer(model)
 
     def run_game(self):
+        self.view.display_rules()
         self.model.board.start_positions()
-        while len(self.model.check_winner()) == 0:
+        result = []
+        while len(result) == 0:
             self.view.draw_board()
 
             # if self.model.curr_player == 1:
@@ -30,8 +36,4 @@ class GameController:
                 self.model.change_player()
             else:
                 self.model.change_player()
-            self.model.check_winner()
-
-
-
-
+            result = self.model.check_winner()

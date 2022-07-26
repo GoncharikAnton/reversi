@@ -1,10 +1,8 @@
 from abc import ABC, abstractmethod
 
-from model.board import Board
-from model.players import Player
-
 
 class Game(ABC):
+    """Abstract class that represents general methods of the reversi game"""
 
     def __init__(self, board_size):
         self.board_size = board_size

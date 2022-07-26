@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 
 class GameView(ABC):
-
+    """Abstract class that represents general methods of the game view"""
     def __init__(self, game) -> None:
         self.game = game
 

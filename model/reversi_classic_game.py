@@ -7,8 +7,10 @@ from model.players import Player
 from model.directions import Directions
 
 
-
 class ReversiClassicGame(Game):
+    """
+    Represents classic mode of the reversi game.
+    """
 
     def __init__(self, board_size=8):
         super().__init__(board_size)
@@ -16,20 +18,39 @@ class ReversiClassicGame(Game):
         self.curr_player = Player.X
 
     def change_player(self):
+        """Changes the current player.
+
+        :return: void
+        """
         self.curr_player = 3 - self.curr_player
 
-    def is_valid_chain(self, start_position, curr_position, direction, curr_player, player_2):
-        chain_list = [[start_position, curr_position, direction]]
+    def is_valid_chain(self, start_position, end_position, direction, curr_player, player_2):
+        """Checks the chain that starts from start_position and goes by the direction until another players chip.
+
+        :param start_position: list: [row, col]
+        :param end_position: list: [row, col]
+        :param direction: tuple: (x , y)
+        :param curr_player: int
+        :param player_2: int
+        :return: list with valid chain of the move.
+        """
+        chain_list = [[start_position, end_position, direction]]
         for i in range(8):
-            if self.board.mat[curr_position[0]][curr_position[1]] == player_2:
-                curr_position[0] += direction[0]
-                curr_position[1] += direction[1]
+            if self.board.mat[end_position[0]][end_position[1]] == player_2:
+                end_position[0] += direction[0]
+                end_position[1] += direction[1]
                 continue
-            elif self.board.mat[curr_position[0]][curr_position[1]] == curr_player:
+            elif self.board.mat[end_position[0]][end_position[1]] == curr_player:
                 return chain_list
         return []
 
     def is_valid_move(self, row, col):
+        """Checks the validity of the move.
+        :param row: int
+        :param col: int
+        :return: list with valid chains of moves (e.g.
+        [[start_row, start_col][pont_row, point_col](direction_x, direction_y)])
+        """
         curr_player = self.curr_player
         player_2 = 3 - self.curr_player
         directions = [(-1, 0), (1, 0), (0, 1), (0, -1), (-1, -1), (-1, 1), (1, -1), (1, 1)]
@@ -38,55 +59,8 @@ class ReversiClassicGame(Game):
         if curr_position != 0:
             return flag
         else:
-            # try:
-            #     for i in range(len(directions)):
-            #         direction = 0
-            #         if col == 7 and directions[i][1] == 1: #TODO
-            #             curr_position = self.board.mat[row + directions[i][0]][col]
-            #             if curr_position == 0:
-            #                 continue
-            #             elif curr_position == curr_player:
-            #                 continue
-            #             else:
-            #                 flag += self.is_valid_chain([row, col], [row + directions[i][0], col],
-            #                                             directions[i],
-            #                                             curr_player, player_2)
-            #         elif row == 7 and directions[i][1] == 1:
-            #             curr_position = self.board.mat[row][col + directions[i][1]]
-            #             if curr_position == 0:
-            #                 continue
-            #             elif curr_position == curr_player:
-            #                 continue
-            #             else:
-            #                 flag += self.is_valid_chain([row, col], [row, col + directions[i][1]],
-            #                                             directions[i],
-            #                                             curr_player, player_2)
-            #         elif (row == 7 and directions[i][1] == 1) and (col == 7 and directions[i][1] == 1):
-            #             curr_position = self.board.mat[row][col]
-            #             if curr_position == 0:
-            #                 continue
-            #             elif curr_position == curr_player:
-            #                 continue
-            #             else:
-            #                 flag += self.is_valid_chain([row, col], [row, col], directions[i], curr_player, player_2)
-            #
-            #
-            #         else:
-            #             curr_position = self.board.mat[row + directions[i][0]][col + directions[i][1]]
-            #             if curr_position == 0:
-            #                 continue
-            #             elif curr_position == curr_player:
-            #                 continue
-            #             else:
-            #                 flag += self.is_valid_chain([row, col], [row + directions[i][0], col + directions[i][1]],
-            #                                             directions[i],
-            #                                             curr_player, player_2)
-            # except IndexError:
-            #     pass
             try:
                 for i in range(len(directions)):
-                    direction_col = 0
-                    direction_row = 0
                     if col == 7 and directions[i][1] == 1:
                         direction_row, direction_col = directions[i][0], 0
                     elif row == 7 and directions[i][1] == 1:
@@ -112,6 +86,14 @@ class ReversiClassicGame(Game):
         return flag
 
     def make_a_move(self, row, col, validation):
+        """Makes a move on the board (updates cells in accordance with current player and validation).
+
+        :param row: int
+        :param col: int
+        :param validation: list with valid chains of moves.
+        [[start_row, start_col][pont_row, point_col](direction_x, direction_y)] ...  [[][]()])
+        :return: void
+        """
         for i in range(len(validation)):
             if validation[i][2] == Directions.D:
                 for q in range(validation[i][0][0], validation[i][1][0]):
@@ -154,6 +136,10 @@ class ReversiClassicGame(Game):
                     tmp_d += 1
 
     def check_winner(self):
+        """Checks if board is fulfilled and checks for the winner.
+        If winner -> saves the data with the match by DataSaver into external .txt file.
+        :return: list with winner and score
+        """
         player1_result = 0
         player2_result = 0
         for i in range(self.board.board_size):
@@ -176,6 +162,9 @@ class ReversiClassicGame(Game):
         return []
 
     def auto_pass(self):
+        """Checks the board on possible steps. If there are no steps for the current player, returns boolean False.
+        :return: boolean
+        """
         for i in range(self.board.board_size):
             for j in range(self.board.board_size):
                 validation = self.is_valid_move(i, j)
