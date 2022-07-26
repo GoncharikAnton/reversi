@@ -1,3 +1,5 @@
+import datetime
+
 from model.board import Board
 from model.data_saver import DataSaver
 from model.game import Game
@@ -36,15 +38,73 @@ class ReversiClassicGame(Game):
         if curr_position != 0:
             return flag
         else:
+            # try:
+            #     for i in range(len(directions)):
+            #         direction = 0
+            #         if col == 7 and directions[i][1] == 1: #TODO
+            #             curr_position = self.board.mat[row + directions[i][0]][col]
+            #             if curr_position == 0:
+            #                 continue
+            #             elif curr_position == curr_player:
+            #                 continue
+            #             else:
+            #                 flag += self.is_valid_chain([row, col], [row + directions[i][0], col],
+            #                                             directions[i],
+            #                                             curr_player, player_2)
+            #         elif row == 7 and directions[i][1] == 1:
+            #             curr_position = self.board.mat[row][col + directions[i][1]]
+            #             if curr_position == 0:
+            #                 continue
+            #             elif curr_position == curr_player:
+            #                 continue
+            #             else:
+            #                 flag += self.is_valid_chain([row, col], [row, col + directions[i][1]],
+            #                                             directions[i],
+            #                                             curr_player, player_2)
+            #         elif (row == 7 and directions[i][1] == 1) and (col == 7 and directions[i][1] == 1):
+            #             curr_position = self.board.mat[row][col]
+            #             if curr_position == 0:
+            #                 continue
+            #             elif curr_position == curr_player:
+            #                 continue
+            #             else:
+            #                 flag += self.is_valid_chain([row, col], [row, col], directions[i], curr_player, player_2)
+            #
+            #
+            #         else:
+            #             curr_position = self.board.mat[row + directions[i][0]][col + directions[i][1]]
+            #             if curr_position == 0:
+            #                 continue
+            #             elif curr_position == curr_player:
+            #                 continue
+            #             else:
+            #                 flag += self.is_valid_chain([row, col], [row + directions[i][0], col + directions[i][1]],
+            #                                             directions[i],
+            #                                             curr_player, player_2)
+            # except IndexError:
+            #     pass
             try:
                 for i in range(len(directions)):
-                    curr_position = self.board.mat[row + directions[i][0]][col + directions[i][1]]
+                    direction_col = 0
+                    direction_row = 0
+                    if col == 7 and directions[i][1] == 1:
+                        direction_row, direction_col = directions[i][0], 0
+                    elif row == 7 and directions[i][1] == 1:
+                        direction_row, direction_col = 0, directions[i][1]
+
+                    elif (row == 7 and directions[i][1] == 1) and (col == 7 and directions[i][1] == 1):
+                        direction_row, direction_col = 0, 0
+
+                    else:
+                        direction_row, direction_col = directions[i][0], directions[i][1]
+
+                    curr_position = self.board.mat[row + direction_row][col + direction_col]
                     if curr_position == 0:
                         continue
                     elif curr_position == curr_player:
                         continue
                     else:
-                        flag += self.is_valid_chain([row, col], [row + directions[i][0], col + directions[i][1]],
+                        flag += self.is_valid_chain([row, col], [row + direction_row, col + direction_col],
                                                     directions[i],
                                                     curr_player, player_2)
             except IndexError:
@@ -99,19 +159,21 @@ class ReversiClassicGame(Game):
         for i in range(self.board.board_size):
             for j in range(self.board.board_size):
                 if self.board.mat[i][j] == 0:
-                    return 0
+                    return []
                 elif self.board.mat[i][j] == 1:
                     player1_result += 1
                 elif self.board.mat[i][j] == 2:
                     player2_result += 1
 
         if player1_result > player2_result:
-            DataSaver.data_saver(['Player X win!', player1_result, player2_result])
+            DataSaver.data_saver(['Player X win!', 'Score of player 1: ' + str(player1_result), 'Score of player 2: ' +
+                                  str(player2_result), str(datetime.datetime.now())])
             return ['Player X win!', player1_result, player2_result]
         elif player2_result > player1_result:
-            DataSaver.data_saver(['Player O win!', player1_result, player2_result])
+            DataSaver.data_saver(['Player O win!', 'Score of player 1: ' + str(player1_result), 'Score of player 2: ' +
+                                  str(player2_result), str(datetime.datetime.now())])
             return ['Player O win!', player1_result, player2_result]
-        return 0
+        return []
 
     def auto_pass(self):
         for i in range(self.board.board_size):

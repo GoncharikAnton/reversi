@@ -20,21 +20,26 @@ class AIPlayer:
         return curr_score
 
     def check_score(self):
-            curr_score = 0
-            for i in range(self.model.board_size):
-                for j in range(self.model.board_size):
-                    if self.model.board.mat[i][j] == 2:
-                        curr_score += 1
-            return curr_score
+        curr_score = 0
+        for i in range(self.model.board_size):
+            for j in range(self.model.board_size):
+                if self.model.board.mat[i][j] == 2:
+                    curr_score += 1
+        return curr_score
 
     def find_most_efficient_move(self):
         step = []
         current_score = self.check_score()
+        print(current_score)
         for i in self.list_of_moves:
             my_model = deepcopy(self.model)
             my_model.make_a_move(i[0][0], i[0][1], my_model.is_valid_move(i[0][0], i[0][1]))
             score = self.check_score_copy(my_model)
-            if score > current_score:
+            print(score)
+            if score >= current_score:
+                current_score = score
+                step = [i[0][0], i[0][1]]
+            elif score < current_score: # Just for testing with 2 AI
                 current_score = score
                 step = [i[0][0], i[0][1]]
             else:
@@ -52,4 +57,4 @@ class AIPlayer:
             for j in range(self.model.board_size):
                 validation = self.model.is_valid_move(i, j)
                 if len(validation) > 0:
-                    self.list_of_moves.append([validation[0][0], validation[0][1],  validation[0][2]])
+                    self.list_of_moves.append([validation[0][0], validation[0][1], validation[0][2]])
