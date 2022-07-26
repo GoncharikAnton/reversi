@@ -20,9 +20,10 @@ class BoardConsoleView(BoardView):
 
         for i in range(board_size):
             if i == 0:
+                print('\n')
                 print('  ', end='')
             print(f'{i + 1}' + ' | ', end='')
-        print('\n')
+        print('\t')
         for i in range(board_size):
             print('+', end='')
             print('---+' * board_size)
@@ -31,6 +32,9 @@ class BoardConsoleView(BoardView):
                 cell = self.board.get_cell(i, j)
                 print(f'| {self.symbols[cell]} ', end='')
             print(f'| {i+1}')
+        print('+' + '---+' * board_size)
+
+
 
 
 
