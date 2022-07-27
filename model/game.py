@@ -13,21 +13,9 @@ class Game(ABC):
         pass
 
     @abstractmethod
-    def is_valid_move(self, row, col):
-        pass
-
-    @abstractmethod
-    def is_valid_chain(self, start_position, curr_position, direction):
-        pass
-
-    @abstractmethod
     def make_a_move(self, row, col, validation):
         pass
 
     @abstractmethod
     def check_winner(self):
-        pass
-
-    @abstractmethod
-    def auto_pass(self):
         pass

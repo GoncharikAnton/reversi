@@ -28,7 +28,7 @@ class GameController:
             if not_auto_pass:
                 validation = self.model.is_valid_move(row, col)
                 while len(validation) == 0:
-                    print('This cell is not valid, try again')
+                    self.view.msg_wrong_move()
                     row, col = self.view.get_move()
                     # row, col = self.ai.make_a_move_ai() # with 2 AI
                     validation = self.model.is_valid_move(row, col)

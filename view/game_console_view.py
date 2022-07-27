@@ -40,5 +40,11 @@ class GameConsoleView(GameView):
         """Draw the board from self.board"""
         self.board_view.draw_board()
 
-    def display_winner(self, player):
-        print(player[0])
+    def display_winner(self, players):
+        if players[0] > players[1]:
+            print('Player X win!')
+        else:
+            print('Player O win!')
+
+    def msg_wrong_move(self):
+        print('This cell is not valid, try again')

@@ -90,7 +90,6 @@ class ReversiClassicGame(Game):
         [[start_row, start_col][pont_row, point_col](direction_x, direction_y)] ...  [[][]()])
         :return: void
         """
-        print(list_of_valid_move_chain)
         for i in range(len(list_of_valid_move_chain)):
             start_cell = list_of_valid_move_chain[i][0]
             end_cell = list_of_valid_move_chain[i][1]
@@ -151,16 +150,13 @@ class ReversiClassicGame(Game):
                     player1_result += 1
                 elif self.board.mat[i][j] == 2:
                     player2_result += 1
-
-        if player1_result > player2_result:
-            DataSaver.data_saver(['Player X win!', 'Score of player 1: ' + str(player1_result), 'Score of player 2: ' +
-                                  str(player2_result), str(datetime.datetime.now())])
-            return ['Player X win!', player1_result, player2_result]
-        elif player2_result > player1_result:
-            DataSaver.data_saver(['Player O win!', 'Score of player 1: ' + str(player1_result), 'Score of player 2: ' +
-                                  str(player2_result), str(datetime.datetime.now())])
-            return ['Player O win!', player1_result, player2_result]
-        return []
+            if player1_result > player2_result:
+                DataSaver.data_saver(['Player X win!', 'Score of player 1: ' + str(player1_result),
+                                      'Score of player 2: ' + str(player2_result), str(datetime.datetime.now())])
+            else:
+                DataSaver.data_saver(['Player O win!', 'Score of player 1: ' + str(player1_result),
+                                      'Score of player 2: ' + str(player2_result), str(datetime.datetime.now())])
+        return [player1_result, player2_result]
 
     def auto_pass(self):
         """Checks the board on possible steps. If there are no steps for the current player, returns boolean False.
