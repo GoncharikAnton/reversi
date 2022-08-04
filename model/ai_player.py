@@ -11,6 +11,7 @@ class AIPlayer:
     def __init__(self, model: Game):
         self.list_of_moves = []
         self.model = model
+        # self.mode = mode
 
     def check_score_copy(self, my_model):
         """Checks the score of the AI player on copied board. (MAY BE STATIC)

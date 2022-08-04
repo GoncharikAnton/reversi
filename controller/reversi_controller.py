@@ -19,12 +19,16 @@ class GameController:
         while len(result) == 0:
             self.view.draw_board()
 
-            if self.model.curr_player == 1:
-                row, col = self.view.get_move()
-            else:
-                row, col = self.ai.make_a_move_ai()
+            # if self.model.curr_player == 1:
+            row, col = self.view.get_move()
+            # else:
+            #     row, col = self.ai.make_a_move_ai()
             # row, col = self.ai.make_a_move_ai() # with 2 AI
             not_auto_pass = self.model.auto_pass()
+            for i in range(self.model.board_size):
+                for j in range(self.model.board_size):
+                    validation = self.model.is_valid_move(i, j)
+                    print(validation, 'valid steps')
             if not_auto_pass:
                 validation = self.model.is_valid_move(row, col)
                 while len(validation) == 0:

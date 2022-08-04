@@ -3,7 +3,7 @@ from view.game_console_view import GameConsoleView
 from controller.reversi_controller import GameController
 
 
-model = ReversiClassicGame(board_size=8)
+model = ReversiClassicGame(board_size=4)
 view = GameConsoleView(model)
 
 controller = GameController(view, model)

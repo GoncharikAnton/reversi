@@ -1,3 +1,4 @@
+from model.players import Player
 class Board:
     """
     Represents classic board 8x8 for game.
@@ -5,7 +6,7 @@ class Board:
     """
     EMPTY_CELL = 0
 
-    def __init__(self, board_size=8):
+    def __init__(self, board_size):
         self.board_size = board_size
         self.mat = [[self.EMPTY_CELL] * board_size for _ in range(board_size)]
 
@@ -34,7 +35,7 @@ class Board:
         :return: void
         """
         center = (self.board_size // 2) - 1
-        self.mat[center][center] = 1
-        self.mat[center + 1][center + 1] = 1
-        self.mat[center][center + 1] = 2
-        self.mat[center + 1][center] = 2
+        self.mat[center][center] = Player.X
+        self.mat[center + 1][center + 1] = Player.X
+        self.mat[center][center + 1] = Player.O
+        self.mat[center + 1][center] = Player.O

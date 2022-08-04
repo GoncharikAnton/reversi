@@ -11,7 +11,7 @@ class ReversiClassicGame(Game):
     """Represents classic mode of the reversi game.
     """
 
-    def __init__(self, board_size=8):
+    def __init__(self, board_size):
         super().__init__(board_size)
         self.board = Board(board_size)
         self.curr_player = Player.X
@@ -31,14 +31,15 @@ class ReversiClassicGame(Game):
         :param direction: tuple: (x , y)
         :return: list with valid chain of the move.
         """
-        curr_player, player_2 = self.curr_player, 3 - self.curr_player
+        curr_player = self.curr_player
+        player_2 = 3 - self.curr_player
         chain_list = [[start_position, end_position, direction]]
-        for i in range(self.board_size):
-            if self.board.mat[end_position[0]][end_position[1]] == player_2:
+        for i in range(self.board.board_size):
+            if self.board.mat[end_position[0]][end_position[1]] == int(player_2):
                 end_position[0] += direction[0]
                 end_position[1] += direction[1]
                 continue
-            elif self.board.mat[end_position[0]][end_position[1]] == curr_player:
+            elif self.board.mat[end_position[0]][end_position[1]] == int(curr_player):
                 return chain_list
         return []
 
@@ -47,7 +48,7 @@ class ReversiClassicGame(Game):
         :param row: int
         :param col: int
         :return: list with valid chains of moves (e.g.
-        [[start_row, start_col][pont_row, point_col](direction_x, direction_y)])
+        [[start_row, start_col][point_row, point_col](direction_x, direction_y)])
         """
         list_of_moves = []
         try:
@@ -57,19 +58,31 @@ class ReversiClassicGame(Game):
             if curr_position != 0:
                 return []
             else:
-                for i in range(len(directions)):
+                for i in range(len(directions)): #for i in range(self.bordersize)
+
                     if col == self.board_size - 1 and directions[i][1] == 1:
                         direction_row, direction_col = directions[i][0], 0
-                    elif row == self.board_size - 1 and directions[i][1] == 1:
+                    elif row == self.board_size - 1 and directions[i][0] == 1:
                         direction_row, direction_col = 0, directions[i][1]
 
-                    elif (row == self.board_size - 1 and directions[i][1] == 1) and \
+                    elif (row == self.board_size - 1 and directions[i][0] == 1) and \
                             (col == self.board_size - 1 and directions[i][1] == 1):
                         direction_row, direction_col = 0, 0
+
+                    elif row == 0 and directions[i][0] == -1:
+                        direction_row, direction_col = 0, directions[i][1]
+
+                    elif col == 0 and directions[i][1] == -1:
+                        direction_row, direction_col = directions[i][0], 0
+
+                    elif (row == 0 and directions[i][0] == -1) and \
+                            (col == 0 and directions[i][1] == -1):
+                        direction_row, direction_col = 0, 0
+
                     else:
                         direction_row, direction_col = directions[i][0], directions[i][1]
-
                     curr_position = self.board.mat[row + direction_row][col + direction_col]
+
                     if curr_position == 0:
                         continue
                     elif curr_position == curr_player:
@@ -77,6 +90,7 @@ class ReversiClassicGame(Game):
                     else:
                         list_of_moves += self.is_valid_chain([row, col], [row + direction_row, col + direction_col],
                                                              directions[i])
+
         except IndexError:
             pass
         return list_of_moves
