@@ -43,6 +43,8 @@ class GameConsoleView(GameView):
     def display_winner(self, players):
         if players[0] > players[1]:
             print('Player X win!')
+        elif players[0] == players[1]:
+            print('DRAW')
         else:
             print('Player O win!')
 

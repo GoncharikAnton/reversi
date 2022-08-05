@@ -13,3 +13,716 @@ Player O win! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-04 21:31:49.2
 Player O win! ,Score of player 1: 4 ,Score of player 2: 4 ,2022-08-04 21:31:49.298661
 Player O win! ,Score of player 1: 5 ,Score of player 2: 7 ,2022-08-04 21:31:49.298661
 Player O win! ,Score of player 1: 6 ,Score of player 2: 10 ,2022-08-04 21:31:49.298661
+Player O win! ,Score of player 1: 0 ,Score of player 2: 4 ,2022-08-05 11:12:32.925993
+Player O win! ,Score of player 1: 2 ,Score of player 2: 6 ,2022-08-05 11:12:32.925993
+Player O win! ,Score of player 1: 3 ,Score of player 2: 9 ,2022-08-05 11:12:32.926994
+Player O win! ,Score of player 1: 6 ,Score of player 2: 10 ,2022-08-05 11:12:32.926994
+Player X win! ,Score of player 1: 3 ,Score of player 2: 1 ,2022-08-05 11:24:40.929354
+Player X win! ,Score of player 1: 6 ,Score of player 2: 2 ,2022-08-05 11:24:40.929354
+Player X win! ,Score of player 1: 7 ,Score of player 2: 5 ,2022-08-05 11:24:40.930359
+Player X win! ,Score of player 1: 10 ,Score of player 2: 6 ,2022-08-05 11:24:40.930359
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 11:29:40.018401
+DRAW! ,Score of player 1: 4 ,Score of player 2: 4 ,2022-08-05 11:29:40.018401
+DRAW! ,Score of player 1: 6 ,Score of player 2: 6 ,2022-08-05 11:29:40.018401
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 11:29:43.884037
+DRAW! ,Score of player 1: 4 ,Score of player 2: 4 ,2022-08-05 11:29:43.884037
+DRAW! ,Score of player 1: 6 ,Score of player 2: 6 ,2022-08-05 11:29:43.884037
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 11:30:04.285819
+Player O win! ,Score of player 1: 3 ,Score of player 2: 5 ,2022-08-05 11:30:04.285819
+Player O win! ,Score of player 1: 3 ,Score of player 2: 9 ,2022-08-05 11:30:04.285819
+Player O win! ,Score of player 1: 3 ,Score of player 2: 13 ,2022-08-05 11:30:04.285819
+Player O win! ,Score of player 1: 1 ,Score of player 2: 3 ,2022-08-05 11:41:48.636461
+DRAW! ,Score of player 1: 4 ,Score of player 2: 4 ,2022-08-05 11:41:48.636461
+Player O win! ,Score of player 1: 1 ,Score of player 2: 3 ,2022-08-05 11:41:54.317993
+Player O win! ,Score of player 1: 2 ,Score of player 2: 6 ,2022-08-05 11:41:54.317993
+Player O win! ,Score of player 1: 3 ,Score of player 2: 9 ,2022-08-05 11:41:54.317993
+Player O win! ,Score of player 1: 4 ,Score of player 2: 12 ,2022-08-05 11:41:54.318989
+Player X win! ,Score of player 1: 4 ,Score of player 2: 0 ,2022-08-05 11:51:04.309108
+Player X win! ,Score of player 1: 8 ,Score of player 2: 0 ,2022-08-05 11:51:04.309108
+Player X win! ,Score of player 1: 11 ,Score of player 2: 1 ,2022-08-05 11:51:04.309108
+Player X win! ,Score of player 1: 14 ,Score of player 2: 2 ,2022-08-05 11:51:04.309108
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:40:27.292962
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:40:27.292962
+Player X win! ,Score of player 1: 3 ,Score of player 2: 1 ,2022-08-05 15:40:27.292962
+Player X win! ,Score of player 1: 4 ,Score of player 2: 1 ,2022-08-05 15:40:27.292962
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:41:09.561776
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:41:09.562772
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:41:09.562772
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:41:09.562772
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:41:09.562772
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:41:09.562772
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:41:09.563770
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:41:09.563770
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:41:09.563770
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:41:09.563770
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:41:09.563770
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:41:09.563770
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:42:12.128561
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:42:12.128561
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:42:12.128561
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:42:12.128561
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:42:12.128561
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:42:12.129557
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:42:12.129557
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:42:12.129557
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:42:12.129557
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:42:12.129557
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:42:12.129557
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:42:12.129557
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:42:33.663372
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:42:33.663372
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:42:33.663372
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:42:33.663372
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:42:33.663372
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:42:33.663372
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:42:33.664369
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:42:33.664369
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:42:33.664369
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:42:33.664369
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:42:33.664369
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:42:33.664369
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:42:53.125987
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:42:53.126984
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:42:53.126984
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:42:53.126984
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:42:53.126984
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:42:53.126984
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:42:53.126984
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:42:53.126984
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:42:53.126984
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:42:53.126984
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:42:53.127981
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:42:53.127981
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:43:07.719129
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:43:07.719129
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:43:07.719129
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:43:07.719129
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:43:07.719129
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:43:07.719129
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:43:07.719129
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:43:07.720121
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:43:07.720121
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:43:07.720121
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:43:07.720121
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:43:07.720121
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:44:32.674277
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:44:32.675275
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:44:32.675275
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:44:32.675275
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:44:32.675275
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:44:32.675275
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:44:32.675275
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:44:32.675275
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:44:32.676271
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:44:32.676271
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:44:32.676271
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:44:32.676271
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:45:05.568384
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:45:05.569380
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:45:05.569380
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:45:05.569380
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:45:05.569380
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:45:05.569380
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:45:05.569380
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:45:05.569380
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:45:05.569380
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:45:05.569380
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:45:05.570373
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:45:05.570373
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:45:21.392030
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:45:21.393023
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:45:21.393023
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:45:21.393023
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:45:21.393023
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:45:21.393023
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:45:21.393023
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:45:21.394020
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:45:21.394020
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:45:21.394020
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:45:21.394020
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:45:21.394020
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:46:52.067152
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:46:52.067152
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:46:52.067152
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:46:52.067152
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:48:57.364013
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:48:57.364013
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:48:57.364013
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:48:57.365011
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:48:57.365011
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:48:57.365011
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:48:57.365011
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:48:57.365011
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:48:57.365011
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:48:57.365011
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:48:57.365011
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:48:57.365011
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:49:23.997249
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:49:23.998249
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:49:23.998249
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:49:23.998249
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:49:23.998249
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:49:23.998249
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:49:23.998249
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:49:23.998249
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:49:23.998249
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:49:23.999241
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:49:23.999241
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:49:23.999241
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:50:09.844943
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:50:09.844943
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:50:09.844943
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:50:09.844943
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:50:09.844943
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:50:09.844943
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:50:09.844943
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:50:09.845939
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:50:09.845939
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:50:09.845939
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:50:09.845939
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:50:09.845939
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:50:09.845939
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:50:09.845939
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:50:09.845939
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:50:09.845939
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:50:09.846936
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:50:09.846936
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:50:09.846936
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:50:09.846936
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:50:09.846936
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:50:09.846936
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:50:09.846936
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:50:09.846936
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:50:17.957141
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:50:17.957141
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:50:17.958143
+Player X win! ,Score of player 1: 5 ,Score of player 2: 3 ,2022-08-05 15:50:17.958143
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:50:17.958143
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:50:17.958143
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:50:17.958143
+Player X win! ,Score of player 1: 5 ,Score of player 2: 3 ,2022-08-05 15:50:17.958143
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:50:17.958143
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:50:17.958143
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:50:17.959139
+Player X win! ,Score of player 1: 5 ,Score of player 2: 3 ,2022-08-05 15:50:17.959139
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:50:17.959139
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:50:17.959139
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:50:17.959139
+Player X win! ,Score of player 1: 5 ,Score of player 2: 3 ,2022-08-05 15:50:17.959139
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:50:26.986715
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:50:26.987708
+Player O win! ,Score of player 1: 2 ,Score of player 2: 4 ,2022-08-05 15:50:26.987708
+DRAW! ,Score of player 1: 5 ,Score of player 2: 5 ,2022-08-05 15:50:26.987708
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:50:26.987708
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:50:26.987708
+Player O win! ,Score of player 1: 2 ,Score of player 2: 4 ,2022-08-05 15:50:26.987708
+DRAW! ,Score of player 1: 5 ,Score of player 2: 5 ,2022-08-05 15:50:26.987708
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:50:33.512075
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:50:33.512075
+DRAW! ,Score of player 1: 4 ,Score of player 2: 4 ,2022-08-05 15:50:33.512075
+Player X win! ,Score of player 1: 7 ,Score of player 2: 5 ,2022-08-05 15:50:33.512075
+Player X win! ,Score of player 1: 1 ,Score of player 2: 0 ,2022-08-05 15:50:33.512075
+Player O win! ,Score of player 1: 1 ,Score of player 2: 4 ,2022-08-05 15:50:33.512075
+DRAW! ,Score of player 1: 4 ,Score of player 2: 4 ,2022-08-05 15:50:33.512075
+Player X win! ,Score of player 1: 7 ,Score of player 2: 5 ,2022-08-05 15:50:33.512075
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:50:33.513081
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:50:33.513081
+DRAW! ,Score of player 1: 4 ,Score of player 2: 4 ,2022-08-05 15:50:33.513081
+Player X win! ,Score of player 1: 7 ,Score of player 2: 5 ,2022-08-05 15:50:33.513081
+Player X win! ,Score of player 1: 1 ,Score of player 2: 0 ,2022-08-05 15:50:33.513081
+Player O win! ,Score of player 1: 1 ,Score of player 2: 4 ,2022-08-05 15:50:33.513081
+DRAW! ,Score of player 1: 4 ,Score of player 2: 4 ,2022-08-05 15:50:33.513081
+Player X win! ,Score of player 1: 7 ,Score of player 2: 5 ,2022-08-05 15:50:33.513081
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:51:12.188341
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:51:12.188341
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:51:12.188341
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:51:12.188341
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:51:12.189338
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:51:12.189338
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:51:12.189338
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:51:12.189338
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:51:12.189338
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:51:12.189338
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:51:12.189338
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:51:12.189338
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:51:12.190334
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:51:12.190334
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 15:51:12.190334
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:51:12.190334
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:51:12.190334
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:51:12.190334
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:51:12.190334
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:51:12.190334
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:51:12.190334
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:51:12.190334
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:51:12.191331
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 15:51:12.191331
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:51:21.228914
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:51:21.228914
+Player O win! ,Score of player 1: 2 ,Score of player 2: 4 ,2022-08-05 15:51:21.228914
+Player O win! ,Score of player 1: 3 ,Score of player 2: 5 ,2022-08-05 15:51:21.228914
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:51:21.229912
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:51:21.229912
+Player X win! ,Score of player 1: 3 ,Score of player 2: 2 ,2022-08-05 15:51:21.229912
+Player O win! ,Score of player 1: 3 ,Score of player 2: 5 ,2022-08-05 15:51:21.229912
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:51:21.230487
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 15:51:21.230487
+Player O win! ,Score of player 1: 2 ,Score of player 2: 4 ,2022-08-05 15:51:21.230487
+Player O win! ,Score of player 1: 3 ,Score of player 2: 5 ,2022-08-05 15:51:21.230487
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 15:51:21.230487
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 15:51:21.230487
+Player X win! ,Score of player 1: 3 ,Score of player 2: 2 ,2022-08-05 15:51:21.230487
+Player O win! ,Score of player 1: 3 ,Score of player 2: 5 ,2022-08-05 15:51:21.230487
+Player O win! ,Score of player 1: 0 ,Score of player 2: 1 ,2022-08-05 15:51:32.393149
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:51:32.394150
+Player X win! ,Score of player 1: 4 ,Score of player 2: 3 ,2022-08-05 15:51:32.394150
+Player O win! ,Score of player 1: 4 ,Score of player 2: 6 ,2022-08-05 15:51:32.394150
+Player O win! ,Score of player 1: 0 ,Score of player 2: 1 ,2022-08-05 15:51:32.394150
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:51:32.394150
+Player O win! ,Score of player 1: 3 ,Score of player 2: 4 ,2022-08-05 15:51:32.394150
+Player O win! ,Score of player 1: 3 ,Score of player 2: 7 ,2022-08-05 15:51:32.394150
+Player O win! ,Score of player 1: 0 ,Score of player 2: 1 ,2022-08-05 15:51:32.395143
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:51:32.395143
+Player X win! ,Score of player 1: 4 ,Score of player 2: 3 ,2022-08-05 15:51:32.395143
+Player O win! ,Score of player 1: 4 ,Score of player 2: 6 ,2022-08-05 15:51:32.395143
+Player O win! ,Score of player 1: 0 ,Score of player 2: 1 ,2022-08-05 15:51:32.395143
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:51:32.395143
+Player X win! ,Score of player 1: 4 ,Score of player 2: 3 ,2022-08-05 15:51:32.395143
+Player O win! ,Score of player 1: 4 ,Score of player 2: 6 ,2022-08-05 15:51:32.395143
+Player O win! ,Score of player 1: 0 ,Score of player 2: 1 ,2022-08-05 15:51:32.395143
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:51:32.395143
+Player O win! ,Score of player 1: 3 ,Score of player 2: 4 ,2022-08-05 15:51:32.395143
+Player O win! ,Score of player 1: 3 ,Score of player 2: 7 ,2022-08-05 15:51:32.396140
+Player O win! ,Score of player 1: 0 ,Score of player 2: 1 ,2022-08-05 15:51:32.396140
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 15:51:32.396140
+Player X win! ,Score of player 1: 4 ,Score of player 2: 3 ,2022-08-05 15:51:32.396140
+Player O win! ,Score of player 1: 4 ,Score of player 2: 6 ,2022-08-05 15:51:32.396140
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 16:01:31.963408
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 16:01:31.963408
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 16:01:31.963408
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 16:01:31.964409
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 16:01:31.964409
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 16:01:31.964409
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:01:31.964409
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 16:01:31.964409
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 16:01:31.964409
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 16:01:31.964409
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:01:31.964409
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 16:01:31.964409
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 16:01:31.965401
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 16:01:31.965401
+Player O win! ,Score of player 1: 2 ,Score of player 2: 3 ,2022-08-05 16:01:31.965401
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 16:01:31.965401
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 16:01:31.965401
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 16:01:31.965401
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:01:31.965401
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 16:01:31.965401
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 16:01:31.965401
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 16:01:31.966398
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:01:31.966398
+DRAW! ,Score of player 1: 3 ,Score of player 2: 3 ,2022-08-05 16:01:31.966398
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 16:01:55.024022
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 16:01:55.025020
+Player O win! ,Score of player 1: 2 ,Score of player 2: 4 ,2022-08-05 16:01:55.025020
+Player O win! ,Score of player 1: 3 ,Score of player 2: 5 ,2022-08-05 16:01:55.025020
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 16:01:55.025020
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 16:01:55.025020
+Player X win! ,Score of player 1: 3 ,Score of player 2: 2 ,2022-08-05 16:01:55.025020
+Player O win! ,Score of player 1: 3 ,Score of player 2: 5 ,2022-08-05 16:01:55.025020
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 16:01:55.026015
+Player O win! ,Score of player 1: 0 ,Score of player 2: 3 ,2022-08-05 16:01:55.026015
+Player O win! ,Score of player 1: 2 ,Score of player 2: 4 ,2022-08-05 16:01:55.026015
+Player O win! ,Score of player 1: 3 ,Score of player 2: 5 ,2022-08-05 16:01:55.026015
+DRAW! ,Score of player 1: 0 ,Score of player 2: 0 ,2022-08-05 16:01:55.026015
+DRAW! ,Score of player 1: 1 ,Score of player 2: 1 ,2022-08-05 16:01:55.026015
+Player X win! ,Score of player 1: 3 ,Score of player 2: 2 ,2022-08-05 16:01:55.026015
+Player O win! ,Score of player 1: 3 ,Score of player 2: 5 ,2022-08-05 16:01:55.026015
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:35:05.759251
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:35:05.759251
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:35:05.759251
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:35:05.760245
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:35:05.760245
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:35:05.760245
+Player X win! ,Score of player 1: 4 ,Score of player 2: 2 ,2022-08-05 16:35:18.310113
+Player X win! ,Score of player 1: 4 ,Score of player 2: 2 ,2022-08-05 16:35:18.310113
+Player X win! ,Score of player 1: 4 ,Score of player 2: 2 ,2022-08-05 16:35:18.310962
+Player X win! ,Score of player 1: 4 ,Score of player 2: 2 ,2022-08-05 16:35:18.310962
+DRAW! ,Score of player 1: 4 ,Score of player 2: 4 ,2022-08-05 16:35:25.710957
+DRAW! ,Score of player 1: 4 ,Score of player 2: 4 ,2022-08-05 16:35:25.711965
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:35:57.324242
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:35:57.324242
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:35:57.325239
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:35:57.325239
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:35:57.325239
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:35:57.325239
+Player X win! ,Score of player 1: 4 ,Score of player 2: 2 ,2022-08-05 16:36:01.069879
+Player X win! ,Score of player 1: 4 ,Score of player 2: 2 ,2022-08-05 16:36:01.069879
+Player X win! ,Score of player 1: 4 ,Score of player 2: 2 ,2022-08-05 16:36:01.069879
+Player X win! ,Score of player 1: 4 ,Score of player 2: 2 ,2022-08-05 16:36:01.071182
+DRAW! ,Score of player 1: 4 ,Score of player 2: 4 ,2022-08-05 16:36:05.224062
+DRAW! ,Score of player 1: 4 ,Score of player 2: 4 ,2022-08-05 16:36:05.225055
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:37:44.592059
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:37:44.593057
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:37:44.593057
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:37:44.593057
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:37:44.593057
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:37:44.594050
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:38:21.174324
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:38:21.174324
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:38:21.174324
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:38:21.175323
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:38:21.175323
+DRAW! ,Score of player 1: 2 ,Score of player 2: 2 ,2022-08-05 16:38:21.175323
+Player X win! ,Score of player 1: 4 ,Score of player 2: 2 ,2022-08-05 16:38:30.056406
+Player X win! ,Score of player 1: 4 ,Score of player 2: 2 ,2022-08-05 16:38:30.056406
+Player X win! ,Score of player 1: 4 ,Score of player 2: 2 ,2022-08-05 16:38:30.057402
+Player X win! ,Score of player 1: 4 ,Score of player 2: 2 ,2022-08-05 16:38:30.057402
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:39:07.155147
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:39:07.155147
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:39:07.156144
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:39:07.156144
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:40:54.748122
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:40:54.749119
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:40:54.749119
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:40:54.749119
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:41:39.710222
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:41:39.711069
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:41:39.712071
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:41:39.712071
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:42:30.315051
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:42:30.315051
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:42:30.316048
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:42:30.316048
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:42:51.877077
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:42:51.878068
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:42:51.878068
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:42:51.879065
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:45:29.894123
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:45:29.895120
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:45:29.895120
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:45:29.895120
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:46:46.548197
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:46:46.549198
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:46:46.549198
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:46:46.550449
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:52:33.602108
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:52:33.603101
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:52:33.604097
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:52:33.605098
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:58:42.993035
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:58:42.994032
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 16:58:42.994032
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 16:58:42.995031
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:02:01.976841
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:02:01.977839
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:02:01.977839
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:02:01.978835
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:10:57.650944
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:10:57.651946
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:10:57.651946
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:10:57.652943
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.523218
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.524211
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:15:55.524211
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.525208
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.525208
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.526205
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.526205
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:15:55.526205
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.527205
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.527205
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.528198
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.528198
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:15:55.529201
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.529201
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.530191
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.530191
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.531189
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:15:55.531189
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.531189
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:15:55.532188
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:15:55.532188
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:15:55.533184
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:15:55.533184
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.517397
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.518395
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:16:45.519318
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.519318
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.519318
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.520315
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.521314
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:16:45.521314
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.522315
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.522315
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.523312
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.523312
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:16:45.523312
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.524305
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.524305
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.525300
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.525300
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:16:45.526297
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.526297
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:16:45.527294
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:16:45.527294
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:16:45.527294
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:16:45.528294
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.920246
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.921218
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:17:09.921218
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.922248
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.922248
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.923244
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.923244
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:17:09.923244
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.924238
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.924238
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.925238
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.925238
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:17:09.926235
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.926235
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.927227
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.927227
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.928228
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:17:09.928228
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.928228
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:09.929221
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:17:09.929221
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:17:09.930224
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:17:09.930224
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.304537
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.304537
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:17:26.304537
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.305530
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.305530
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.306527
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.307523
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:17:26.307523
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.307523
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.308527
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.309517
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.309517
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:17:26.309517
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.310500
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.310500
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.311396
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.311396
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:17:26.311396
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.312394
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:17:26.312394
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:17:26.313391
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:17:26.313391
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:17:26.314388
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.431540
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.431540
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:18:31.431540
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.432549
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.432549
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.433537
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.434540
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:18:31.434540
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.434540
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.435531
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.435531
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.436532
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:18:31.436532
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.437528
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.437528
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.438525
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.438525
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:18:31.438525
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.439517
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:18:31.439517
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:18:31.440515
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:18:31.440515
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:18:31.441374
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.042141
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.043138
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:19:40.043138
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.044134
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.044134
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.045127
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.045127
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:19:40.045127
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.046128
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.046128
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.047121
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.047121
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:19:40.048121
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.048121
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.049114
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.049114
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.050115
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:19:40.050115
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.050115
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:40.051112
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:19:40.051112
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:19:40.052107
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:19:40.052107
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.321435
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.322432
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:19:58.322432
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.323429
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.323429
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.324425
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.324425
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:19:58.324425
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.325422
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.325422
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.326419
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.326419
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:19:58.327415
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.327415
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.327415
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.328412
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.328412
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:19:58.329409
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.329409
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:19:58.330405
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:19:58.330405
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:19:58.331402
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:19:58.331402
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.175529
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.176522
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:21:08.176522
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.177524
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.177524
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.178521
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.178521
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:21:08.178521
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.179520
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.179520
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.180510
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.181318
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:21:08.181318
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.181318
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.182316
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.182316
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.183313
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:21:08.183313
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.183313
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:21:08.184313
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:21:08.184313
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:21:08.185306
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:21:08.185306
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.718401
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.718401
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:22:52.719400
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.719400
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.720402
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.721399
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.721399
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:22:52.721399
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.722397
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.722397
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.723393
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.723393
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:22:52.724389
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.724389
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.724389
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.725386
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.726383
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:22:52.726383
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.726383
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:22:52.727398
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:22:52.727398
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:22:52.728376
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:22:52.728376
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.413223
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.414215
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:23:10.414215
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.414215
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.415215
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.415215
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.416212
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:23:10.416212
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.417209
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.417209
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.418205
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.418205
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:23:10.418205
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.419202
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.419202
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.420195
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.420195
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:23:10.421196
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.421196
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:23:10.422192
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:23:10.422192
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:23:10.422192
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:23:10.423185
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:25:49.927096
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:25:49.929090
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:25:49.930087
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:25:49.931083
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:25:49.932080
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:25:49.933076
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:26:25.511106
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:26:25.512108
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:26:25.513105
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:26:25.514104
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:26:25.515098
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:26:25.516099
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:27:57.661293
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:27:57.663296
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:27:57.664292
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:27:57.665288
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:27:57.666285
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:27:57.667278
+Player O win! ,Score of player 1: -1 ,Score of player 2: 10 ,2022-08-05 17:28:14.974046
+Player O win! ,Score of player 1: -1 ,Score of player 2: 10 ,2022-08-05 17:28:14.975038
+Player O win! ,Score of player 1: -1 ,Score of player 2: 10 ,2022-08-05 17:28:14.976039
+Player O win! ,Score of player 1: -1 ,Score of player 2: 10 ,2022-08-05 17:28:14.976039
+Player O win! ,Score of player 1: -1 ,Score of player 2: 12 ,2022-08-05 17:28:27.208142
+Player O win! ,Score of player 1: -1 ,Score of player 2: 11 ,2022-08-05 17:28:27.209139
+Player O win! ,Score of player 1: -1 ,Score of player 2: 12 ,2022-08-05 17:28:27.210132
+Player O win! ,Score of player 1: -1 ,Score of player 2: 12 ,2022-08-05 17:28:27.211116
+Player O win! ,Score of player 1: -1 ,Score of player 2: 11 ,2022-08-05 17:28:27.211116
+Player O win! ,Score of player 1: -1 ,Score of player 2: 12 ,2022-08-05 17:28:27.212122
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.962684
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.962684
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:29:47.962684
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.963679
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.964675
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.964675
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.965671
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:29:47.965671
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.966672
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.966672
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.967668
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.967668
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:29:47.967668
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.968661
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.968661
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.969657
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.970200
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:29:47.970200
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.971013
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:29:47.971013
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:29:47.972016
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:29:47.972016
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:29:47.972016
+Player O win! ,Score of player 1: 3 ,Score of player 2: 11 ,2022-08-05 17:32:20.736019
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.433456
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.434455
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:33:51.434455
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.435445
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.435445
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.436442
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.436442
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:33:51.437439
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.437439
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.438435
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.438435
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.439436
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:33:51.439436
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.440433
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.440433
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.441280
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.441280
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:33:51.442279
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.442279
+Player O win! ,Score of player 1: -1 ,Score of player 2: 8 ,2022-08-05 17:33:51.442279
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:33:51.443276
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:33:51.443276
+Player O win! ,Score of player 1: -1 ,Score of player 2: 7 ,2022-08-05 17:33:51.444276
