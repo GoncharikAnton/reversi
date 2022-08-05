@@ -66,7 +66,7 @@ class AIPlayer:
         step = self.find_most_efficient_move()
         return step[0], step[1]
 
-    def find_possible_moves(self, consumption='self'):
+    def find_possible_moves(self):
         """Finds possible moves of the AI on the board and returns list with moves.
 
         :return: list with moves
@@ -100,10 +100,10 @@ class AIPlayer:
             new_model = deepcopy(model)
             new_model.make_a_move(move[0][0], move[0][1], new_model.is_valid_move(move[0][0], move[0][1]))
             board_value = self.minimax(new_model, Player.X, Player.O)
+            print(board_value)
             if board_value > worst_case:
                 worst_case = board_value
                 main_move = move
-                print(worst_case, main_move)
             else:
                 main_move = move
         return main_move
@@ -111,27 +111,27 @@ class AIPlayer:
     def minimax(self, model, max_player, min_player):
         if self.board_in_terminal_state(model):
             p1_winner, p2_winner = model.check_winner()
-            print(p1_winner, p2_winner)
+            # print(p1_winner, p2_winner)
             if p1_winner > p2_winner:
                 return -1
             elif p2_winner > p1_winner:
                 return 1
             elif p1_winner == p2_winner:
                 return 0
-        values = []
-        possible_moves = self.find_possible_moves_copy(model, max_player)
-        for move in possible_moves:
-            print(move)
-            new_model = deepcopy(model)
-            new_model.make_a_move(move[0][0], move[0][1], new_model.is_valid_move(move[0][0], move[0][1]))
-            board_value = self.minimax(new_model, min_player, max_player)
-            print(board_value)
-            values.append(board_value)
-
-        if Player.X == max_player:
-            return max(values)
         else:
-            return min(values)
+            values = []
+            possible_moves = self.find_possible_moves_copy(model, max_player)
+            for move in possible_moves:
+                new_model = deepcopy(model)
+                new_model.change_player()
+                new_model.make_a_move(move[0][0], move[0][1], new_model.is_valid_move(move[0][0], move[0][1]))
+                board_value = self.minimax(new_model, min_player, max_player)
+                values.append(board_value)
+                print(board_value, move, new_model.board.mat)
+            if Player.X == max_player:
+                return max(values)
+            else:
+                return min(values)
 
     @staticmethod
     def board_in_terminal_state(model):

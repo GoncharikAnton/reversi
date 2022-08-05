@@ -160,8 +160,8 @@ class ReversiClassicGame(Game):
         If winner -> saves the data with the match by DataSaver into external .txt file.
         :return: list with winner and score
         """
-        player1_result = -1
-        player2_result = -1
+        player1_result = 0
+        player2_result = 0
         for i in range(self.board.board_size):
             for j in range(self.board.board_size):
                 if self.board.mat[i][j] == 1:
