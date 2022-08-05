@@ -51,9 +51,6 @@ class AIPlayer:
             if score >= current_score:
                 current_score = score
                 step = [i[0][0], i[0][1]]
-            # elif score < current_score: # Just for testing with 2 AI
-            #     current_score = score
-            #     step = [i[0][0], i[0][1]]
             else:
                 continue
         return step

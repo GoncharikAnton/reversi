@@ -10,7 +10,7 @@ class GameController:
     def __init__(self, view: GameView, model: Game):
         self.view = view
         self.model = model
-        self.ai = AIPlayer(model)
+        # self.ai = AIPlayer(model)
 
     def run_game(self):
         self.view.display_rules()
@@ -23,18 +23,13 @@ class GameController:
             row, col = self.view.get_move()
             # else:
             #     row, col = self.ai.make_a_move_ai()
-            # row, col = self.ai.make_a_move_ai() # with 2 AI
+            # row, col = self.ai.make_a_move_ai()
             not_auto_pass = self.model.auto_pass()
-            for i in range(self.model.board_size):
-                for j in range(self.model.board_size):
-                    validation = self.model.is_valid_move(i, j)
-                    print(validation, 'valid steps')
             if not_auto_pass:
                 validation = self.model.is_valid_move(row, col)
                 while len(validation) == 0:
                     self.view.msg_wrong_move()
                     row, col = self.view.get_move()
-                    # row, col = self.ai.make_a_move_ai() # with 2 AI
                     validation = self.model.is_valid_move(row, col)
                 self.model.make_a_move(row, col, validation)
                 self.model.change_player()

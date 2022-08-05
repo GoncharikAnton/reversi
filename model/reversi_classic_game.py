@@ -1,4 +1,5 @@
 import datetime
+from copy import deepcopy
 
 from model.board import Board
 from model.data_saver import DataSaver
@@ -35,11 +36,11 @@ class ReversiClassicGame(Game):
         player_2 = 3 - self.curr_player
         chain_list = [[start_position, end_position, direction]]
         for i in range(self.board.board_size):
-            if self.board.mat[end_position[0]][end_position[1]] == int(player_2):
+            if self.board.mat[end_position[0]][end_position[1]] == player_2:
                 end_position[0] += direction[0]
                 end_position[1] += direction[1]
                 continue
-            elif self.board.mat[end_position[0]][end_position[1]] == int(curr_player):
+            elif self.board.mat[end_position[0]][end_position[1]] == curr_player:
                 return chain_list
         return []
 
@@ -51,38 +52,29 @@ class ReversiClassicGame(Game):
         [[start_row, start_col][point_row, point_col](direction_x, direction_y)])
         """
         list_of_moves = []
-        try:
-            curr_player = self.curr_player
-            directions = [(-1, 0), (1, 0), (0, 1), (0, -1), (-1, -1), (-1, 1), (1, -1), (1, 1)]
-            curr_position = self.board.mat[row][col]
-            if curr_position != 0:
-                return []
-            else:
-                for i in range(len(directions)): #for i in range(self.bordersize)
 
-                    if col == self.board_size - 1 and directions[i][1] == 1:
+        curr_player = self.curr_player
+        directions = [(-1, 0), (1, 0), (0, 1), (0, -1), (-1, -1), (-1, 1), (1, -1), (1, 1)]
+        curr_position = self.board.mat[row][col]
+        if curr_position != 0:
+            return []
+        else:
+            for i in range(len(directions)):
+                try:
+                    direction_row, direction_col = directions[i][0], directions[i][1]
+                    if (col == self.board_size - 1 and directions[i][1] == 1) \
+                            or (col == 0 and directions[i][1] == -1):
                         direction_row, direction_col = directions[i][0], 0
-                    elif row == self.board_size - 1 and directions[i][0] == 1:
+                    if (row == self.board_size - 1 and directions[i][0] == 1) \
+                            or (row == 0 and directions[i][0] == -1):
                         direction_row, direction_col = 0, directions[i][1]
-
-                    elif (row == self.board_size - 1 and directions[i][0] == 1) and \
+                    if (row == self.board_size - 1 and directions[i][0] == 1) and \
                             (col == self.board_size - 1 and directions[i][1] == 1):
                         direction_row, direction_col = 0, 0
-
-                    elif row == 0 and directions[i][0] == -1:
-                        direction_row, direction_col = 0, directions[i][1]
-
-                    elif col == 0 and directions[i][1] == -1:
-                        direction_row, direction_col = directions[i][0], 0
-
-                    elif (row == 0 and directions[i][0] == -1) and \
-                            (col == 0 and directions[i][1] == -1):
+                    if (row == 0 and directions[i][0] == -1) \
+                            and (col == 0 and directions[i][1] == -1):
                         direction_row, direction_col = 0, 0
-
-                    else:
-                        direction_row, direction_col = directions[i][0], directions[i][1]
                     curr_position = self.board.mat[row + direction_row][col + direction_col]
-
                     if curr_position == 0:
                         continue
                     elif curr_position == curr_player:
@@ -90,9 +82,9 @@ class ReversiClassicGame(Game):
                     else:
                         list_of_moves += self.is_valid_chain([row, col], [row + direction_row, col + direction_col],
                                                              directions[i])
+                except IndexError:
+                    print(f'INDEX ERROR with direction {directions[i]}')
 
-        except IndexError:
-            pass
         return list_of_moves
 
     def make_a_move(self, row, col, list_of_valid_move_chain):
