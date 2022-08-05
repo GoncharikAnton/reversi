@@ -100,44 +100,49 @@ class AIPlayer:
             new_model = deepcopy(model)
             new_model.make_a_move(move[0][0], move[0][1], new_model.is_valid_move(move[0][0], move[0][1]))
             board_value = self.minimax(new_model, Player.X, Player.O)
-            print(board_value)
             if board_value > worst_case:
                 worst_case = board_value
                 main_move = move
             else:
                 main_move = move
-        return main_move
+        return main_move[0]
 
     def minimax(self, model, max_player, min_player):
         if self.board_in_terminal_state(model):
             p1_winner, p2_winner = model.check_winner()
-            # print(p1_winner, p2_winner)
             if p1_winner > p2_winner:
                 return -1
             elif p2_winner > p1_winner:
                 return 1
             elif p1_winner == p2_winner:
                 return 0
-        else:
-            values = []
-            possible_moves = self.find_possible_moves_copy(model, max_player)
+        values = []
+        possible_moves = self.find_possible_moves_copy(model, max_player)
+        if possible_moves:
             for move in possible_moves:
                 new_model = deepcopy(model)
                 new_model.change_player()
                 new_model.make_a_move(move[0][0], move[0][1], new_model.is_valid_move(move[0][0], move[0][1]))
                 board_value = self.minimax(new_model, min_player, max_player)
                 values.append(board_value)
-                print(board_value, move, new_model.board.mat)
             if Player.X == max_player:
                 return max(values)
             else:
                 return min(values)
+        else:
+            p1_winner, p2_winner = model.check_winner()
+
+            if p1_winner > p2_winner:
+                return -1
+            elif p2_winner > p1_winner:
+                return 1
+            elif p1_winner == p2_winner:
+                return 0
 
     @staticmethod
     def board_in_terminal_state(model):
         for i in range(len(model.board.mat)):
             for j in range(len(model.board.mat)):
-                if model.board.mat[i][j] == 0:
                     move_p1 = model.is_valid_move(i, j, Player.X)
                     move_p2 = model.is_valid_move(i, j, Player.O)
                     if move_p1 or move_p2:
