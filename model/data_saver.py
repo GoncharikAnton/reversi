@@ -10,4 +10,4 @@ class DataSaver:
         :return: void
         """
         with open(file, 'a', encoding='UTF-8') as f:
-            f.writelines(' ,'.join(result) + '\n')
+            f.writelines(', '.join(result) + '\n')
