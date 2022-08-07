@@ -12,7 +12,7 @@ class AIPlayer:
     def __init__(self, model: Game):
         self.list_of_moves = []
         self.model = model
-        # self.mode = mode
+        # self.difficulty = difficulty
 
     def check_score_copy(self, my_model):
         """Checks the score of the AI player on copied board. (MAY BE STATIC)
@@ -78,8 +78,9 @@ class AIPlayer:
                 if len(validation) > 0:
                     self.list_of_moves.append([validation[0][0], validation[0][1], validation[0][2]])
 
-    def find_possible_moves_copy(self, model, player):
-        """Finds possible moves of the AI on the board and returns list with moves.
+    @staticmethod
+    def find_possible_moves_copy(model, player):
+        """Finds possible moves of the AI on the copied board and returns list with moves.
 
         :return: list with moves
         """
@@ -92,6 +93,11 @@ class AIPlayer:
         return list_of_moves
 
     def choose_move(self, model):
+        """Finds and return the most efficient move for AI with minimax algorithm.
+
+        :param model: models of the board and of the game.
+        :return: Chosen move: list - [row][col]
+        """
         self.list_of_moves = []
         self.find_possible_moves()
         worst_case = -1
@@ -108,6 +114,13 @@ class AIPlayer:
         return main_move[0]
 
     def minimax(self, model, max_player, min_player):
+        """
+
+        :param model: deep copied model of the game and the board.
+        :param max_player:
+        :param min_player:
+        :return: result - int -  (depends on winner of the last recursive step)
+        """
         if self.board_in_terminal_state(model):
             p1_winner, p2_winner = model.check_winner()
             if p1_winner > p2_winner:
@@ -134,16 +147,21 @@ class AIPlayer:
             if p1_winner > p2_winner:
                 return -1
             elif p2_winner > p1_winner:
-                return
+                return 1
             elif p1_winner == p2_winner:
                 return 0
 
     @staticmethod
     def board_in_terminal_state(model):
+        """Checks the board for the terminal state (no possible moves for each player).
+
+        :param model: deep copied model of the game and the board.
+        :return: void
+        """
         for i in range(len(model.board.mat)):
             for j in range(len(model.board.mat)):
-                    move_p1 = model.is_valid_move(i, j, Player.X)
-                    move_p2 = model.is_valid_move(i, j, Player.O)
-                    if move_p1 or move_p2:
-                        return False
+                move_p1 = model.is_valid_move(i, j, Player.X)
+                move_p2 = model.is_valid_move(i, j, Player.O)
+                if move_p1 or move_p2:
+                    return False
         return True
