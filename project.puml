@@ -3,81 +3,98 @@
 package model {
 
     abstract class Game {
+    board_size: int
     change_player()
-    make_move()
-    is_valid_move()
+    make_a_move(row, col, validation)
     check_the_winner()
     }
 
 
     class ReversiClassicGame {
         board : Board
-        player : Player
+        curr_player : Player
         change_player()
-        make_move()
-        is_valid_move()
+        make_move(row, col, list_of_valid_move_chain)
+        is_valid_move( row, col, curr_player=0)
+        is_valid_chain(start_position, end_position, direction, current_player, second_player)
         check_the_winner()
+        auto_pass()
     }
 
     class AIPlayer {
-        difficulty(int)
-        get_board()
-        make_move()
+        list_of_moves: list
+        model: Board, Game
+        check_score()
+        check_score_copy(copied_model)
+        find_most_efficient_move()
+        make_a_move_ai()
+        find_possible_moves()
+        static find_possible_moves_copy(copied_model, curr_player))
+        choose_move(model)
+        minimax(model, max_player, min_player)
+        static board_in_terminal_state(copied_model))
     }
 
 
     class DataSaver {
-        path_to_save: str
-        save_the_game(path_to_save)
+        static data_saver(result, path_of_the_file)
     }
 
 
     class Board {
-        size
-        board_mat
-        update_cell()
-        get_cell()
+        board_size: int
+        board_mat: list
+        update_cell(row: int, col: int, player: Player)
+        get_cell(row: int, col: int)
+        start_positions()
     }
 
     enum Player {
-        (from enum)
-        Black : Int
-        White : Int
+        X : Int
+        O : Int
     }
 
 
 }
 
 package view {
-    abstract class View {
-    welcome_message()
+    abstract class GameView {
+    game: Game model
+    display_rules()
+    get_move()
+    draw_board()
+    display_winner()
+    }
+
+    abstract class BoardView {
+    board: Board model
+    draw_board()
     }
 
     class BoardConsoleView {
-        board
-        render_board()
+    static symbols: dict
+        board: Board model
+        draw_board()
     }
-
 
     class GameConsoleView {
-        welcome_message()
-        display_menu()
+        game: Game
+        board_view: BoardConsoleView
+        display_rules()
+        get_move()
+        draw_board()
+        display_winner(players_score: list)
+        msg_wrong_move()
     }
-
-    class ReversiTKinter {
-        render_the_menu()
-        render_the_game()
-    }
-
 
 }
 
 
 package controller {
-    class ReversiController {
-        game : ReversiClassicGame
-        view : GameConsoleView
-        board_view : BoardConsoleView
+    class GameController {
+        model : Game
+        view : GameView
+        ai: AIPlayer
         run_game()
     }
 }
@@ -85,19 +102,23 @@ package controller {
 
 
 ReversiClassicGame <|-- Game
+GameView o-- ReversiClassicGame
+GameConsoleView o-- ReversiClassicGame
 ReversiClassicGame *-- Board
 ReversiClassicGame *-- Player
 
 ReversiClassicGame *-- DataSaver
 
-ReversiClassicGame *-- AIPlayer
+AIPlayer o-- ReversiClassicGame
+AIPlayer o-- Board
 
-GameConsoleView <|-- View
-ReversiTKinter <|-- View
-BoardConsoleView <|-- View
+GameConsoleView <|-- GameView
+BoardConsoleView <|-- BoardView
+BoardConsoleView o-- Board
 
-ReversiController *-- GameConsoleView
-ReversiController *-- BoardConsoleView
-ReversiController *-- ReversiClassicGame
+GameController *-- GameConsoleView
+GameController *-- AIPlayer
+GameConsoleView *-- BoardConsoleView
+GameController *-- ReversiClassicGame
 
 @enduml
