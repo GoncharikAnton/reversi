@@ -131,11 +131,10 @@ class AIPlayer:
                 return min(values)
         else:
             p1_winner, p2_winner = model.check_winner()
-
             if p1_winner > p2_winner:
                 return -1
             elif p2_winner > p1_winner:
-                return 1
+                return
             elif p1_winner == p2_winner:
                 return 0
 
