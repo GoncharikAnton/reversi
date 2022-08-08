@@ -33,7 +33,7 @@ class GameController:
                         row = self.ai.choose_move(self.model)[0]
                         col = self.ai.choose_move(self.model)[1]
                     else:
-                       row, col = self.view.get_move()
+                        row, col = self.view.get_move()
                 auto_pass_counter = 0
                 validation = self.model.is_valid_move(row, col)
                 while len(validation) == 0:
