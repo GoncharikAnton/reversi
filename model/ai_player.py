@@ -12,7 +12,6 @@ class AIPlayer:
     def __init__(self, model: Game):
         self.list_of_moves = []
         self.model = model
-        # self.difficulty = difficulty
 
     def check_score_copy(self, my_model):
         """Checks the score of the AI player on copied board. (MAY BE STATIC)
@@ -114,7 +113,8 @@ class AIPlayer:
         return main_move[0]
 
     def minimax(self, model, max_player, min_player):
-        """
+        """Recursive function that represents minimax algorithm. It finds the most efficient move of the AI by
+        checking all possible game scenarios and returning the weight of each scenario.
 
         :param model: deep copied model of the game and the board.
         :param max_player:
