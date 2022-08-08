@@ -34,7 +34,7 @@ class ReversiClassicGame(Game):
         """
         curr_player = current_player
         player_2 = second_player
-        chain_list = [[start_position, end_position, direction]]
+        chain = [[start_position, end_position, direction]]
         for i in range(self.board.board_size):
             if self.board.mat[end_position[0]][end_position[1]] == player_2 \
                     and end_position[0] >= 0 \
@@ -43,7 +43,7 @@ class ReversiClassicGame(Game):
                 end_position[1] += direction[1]
                 continue
             elif self.board.mat[end_position[0]][end_position[1]] == curr_player:
-                return chain_list
+                return chain
 
         return []
 
@@ -54,7 +54,7 @@ class ReversiClassicGame(Game):
         :return: list with valid chains of moves (e.g.
         [[start_row, start_col][point_row, point_col](direction_x, direction_y)])
         """
-        list_of_moves = []
+        moves = []
         if curr_player == 0:
             curr_player = self.curr_player
         else:
@@ -94,26 +94,26 @@ class ReversiClassicGame(Game):
                     elif curr_position == curr_player:
                         continue
                     else:
-                        list_of_moves += self.is_valid_chain([row, col], [row + direction_row, col + direction_col],
+                        moves += self.is_valid_chain([row, col], [row + direction_row, col + direction_col],
                                                              directions[i], curr_player, second_player)
                 except IndexError:
                     # print(f'INDEX ERROR with direction {directions[i]}')
                     pass
-        return list_of_moves
+        return moves
 
-    def make_a_move(self, row, col, list_of_valid_move_chain):
+    def make_a_move(self, row, col, valid_move_chains):
         """Makes a move on the board (updates cells in accordance with current player and validation).
 
         :param row: int
         :param col: int
-        :param list_of_valid_move_chain: list with valid chains of moves.
+        :param valid_move_chains: list with valid chains of moves.
         [[start_row, start_col][pont_row, point_col](direction_x, direction_y)] ...  [[][]()])
         :return: void
         """
-        for i in range(len(list_of_valid_move_chain)):
-            start_cell = list_of_valid_move_chain[i][0]
-            end_cell = list_of_valid_move_chain[i][1]
-            direction = list_of_valid_move_chain[i][2]
+        for i in range(len(valid_move_chains)):
+            start_cell = valid_move_chains[i][0]
+            end_cell = valid_move_chains[i][1]
+            direction = valid_move_chains[i][2]
 
             if direction == Directions.D:
                 for q in range(start_cell[0], end_cell[0]):
@@ -155,9 +155,10 @@ class ReversiClassicGame(Game):
                     self.board.update_cell(q, tmp_d, self.curr_player)
                     tmp_d += 1
 
-    def check_winner(self):
+    def check_winner(self, flag=True):
         """Checks for the winner.
         If winner -> saves the data with the match by DataSaver into external .txt file.
+        :param: flag - boolean: changes to False, if function calling by minimax
         :return: list with winner and score
         """
         player1_result = 0
@@ -170,13 +171,19 @@ class ReversiClassicGame(Game):
                     player2_result += 1
         if player1_result > player2_result:
             DataSaver.data_saver(['Player X win!', 'Score of player 1: ' + str(player1_result),
-                                  'Score of player 2: ' + str(player2_result), str(datetime.datetime.now())])
+                                  'Score of player 2: ' + str(player2_result),
+                                  str(datetime.datetime.now())],
+                                 flag)
         elif player1_result == player2_result:
             DataSaver.data_saver(['DRAW!', 'Score of player 1: ' + str(player1_result),
-                                  'Score of player 2: ' + str(player2_result), str(datetime.datetime.now())])
+                                  'Score of player 2: ' + str(player2_result),
+                                  str(datetime.datetime.now())],
+                                 flag)
         else:
             DataSaver.data_saver(['Player O win!', 'Score of player 1: ' + str(player1_result),
-                                  'Score of player 2: ' + str(player2_result), str(datetime.datetime.now())])
+                                  'Score of player 2: ' + str(player2_result),
+                                  str(datetime.datetime.now())],
+                                 flag)
         return [player1_result, player2_result]
 
     def auto_pass(self):

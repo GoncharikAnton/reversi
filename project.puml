@@ -37,7 +37,7 @@ package model {
 
 
     class DataSaver {
-        static data_saver(result, path_of_the_file)
+        static data_saver(result, path_of_the_file, flag)
     }
 
 
@@ -82,6 +82,7 @@ package view {
         board_view: BoardConsoleView
         display_rules()
         get_move()
+        get_opponent()
         draw_board()
         display_winner(players_score: list)
         msg_wrong_move()
