@@ -15,6 +15,7 @@ class GameController:
 
     def run_game(self):
         self.view.display_rules()
+        self.model.mode = self.view.get_opponent()
         self.model.board.start_positions()
         result = []
         auto_pass_counter = 0
@@ -26,10 +27,13 @@ class GameController:
                 if self.model.curr_player == 1:
                     row, col = self.view.get_move()
                 else:
-                    row = self.ai.choose_move(self.model)[0]
-                    col = self.ai.choose_move(self.model)[1]
-                    # row, col = self.ai.make_a_move_ai()
-                # row, col = self.view.get_move()
+                    if self.model.mode == 'easy':
+                        row, col = self.ai.make_a_move_ai()
+                    elif self.model.mode == 'hard':
+                        row = self.ai.choose_move(self.model)[0]
+                        col = self.ai.choose_move(self.model)[1]
+                    else:
+                       row, col = self.view.get_move()
                 auto_pass_counter = 0
                 validation = self.model.is_valid_move(row, col)
                 while len(validation) == 0:
