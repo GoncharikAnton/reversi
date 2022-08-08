@@ -36,6 +36,19 @@ class GameConsoleView(GameView):
                 print('Entered value is not valid, try again...')
         return row, col
 
+    def get_opponent(self):
+        """Returns the choice about opponent of the player 1.
+
+        :return: str
+        """
+        while True:
+            try:
+                s = input(f'PLease, choose the player with whom you want to play ("easy" or "hard" if AI or "pvp"):')
+                if s in ['easy', 'hard', 'pvp']:
+                    return s
+            except ValueError:
+                print('Entered value is not valid, try again...')
+
     def draw_board(self):
         """Draw the board from self.board"""
         self.board_view.draw_board()
