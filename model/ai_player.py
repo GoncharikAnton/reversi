@@ -84,13 +84,13 @@ class AIPlayer:
 
         :return: list with moves
         """
-        list_of_moves = []
+        moves = []
         for i in range(model.board_size):
             for j in range(model.board_size):
                 validation = model.is_valid_move(i, j, player)
                 if len(validation) > 0:
-                    list_of_moves.append([validation[0][0], validation[0][1], validation[0][2]])
-        return list_of_moves
+                    moves.append([validation[0][0], validation[0][1], validation[0][2]])
+        return moves
 
     def choose_move(self, model):
         """Finds and return the most efficient move for AI with minimax algorithm.
@@ -122,7 +122,7 @@ class AIPlayer:
         :return: result - int -  (depends on winner of the last recursive step)
         """
         if self.board_in_terminal_state(model):
-            p1_winner, p2_winner = model.check_winner()
+            p1_winner, p2_winner = model.check_winner(flag=False)
             if p1_winner > p2_winner:
                 return -1
             elif p2_winner > p1_winner:
@@ -143,7 +143,7 @@ class AIPlayer:
             else:
                 return min(values)
         else:
-            p1_winner, p2_winner = model.check_winner()
+            p1_winner, p2_winner = model.check_winner(flag=False)
             if p1_winner > p2_winner:
                 return -1
             elif p2_winner > p1_winner:
