@@ -5,6 +5,7 @@ from model.players import Player
 
 
 class AIPlayer:
+    DEPTH = 0
     """
     Class describes a behaviour of the AI-player and its methods.
     """
@@ -101,6 +102,7 @@ class AIPlayer:
         self.find_possible_moves()
         worst_case = -1
         main_move = []
+        self.DEPTH = 0
         for move in self.list_of_moves:
             new_model = deepcopy(model)
             new_model.make_a_move(move[0][0], move[0][1], new_model.is_valid_move(move[0][0], move[0][1]))
@@ -113,6 +115,7 @@ class AIPlayer:
         return main_move[0]
 
     def minimax(self, model, max_player, min_player):
+
         """Recursive function that represents minimax algorithm. It finds the most efficient move of the AI by
         checking all possible game scenarios and returning the weight of each scenario.
 
@@ -121,6 +124,15 @@ class AIPlayer:
         :param min_player:
         :return: result - int -  (depends on winner of the last recursive step)
         """
+        self.DEPTH += 1
+        if self.DEPTH > 86659:
+            p1_winner, p2_winner = model.check_winner(flag=False)
+            if p1_winner > p2_winner:
+                return -1
+            elif p2_winner > p1_winner:
+                return 1
+            elif p1_winner == p2_winner:
+                return 0
         if self.board_in_terminal_state(model):
             p1_winner, p2_winner = model.check_winner(flag=False)
             if p1_winner > p2_winner:
@@ -150,6 +162,7 @@ class AIPlayer:
                 return 1
             elif p1_winner == p2_winner:
                 return 0
+
 
     @staticmethod
     def board_in_terminal_state(model):
